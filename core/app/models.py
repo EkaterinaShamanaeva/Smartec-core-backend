@@ -6,3 +6,5 @@ class User(models.Model):
     name = models.CharField(max_length=255)
     email = models.TextField()
     password = models.TextField()
+    uuid = models.CharField(max_length=255)
+
